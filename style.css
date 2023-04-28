@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Poppins:wght@200;500;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #8e0505;
+}
+
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 85px;
+}
+
+.topo {
+    width: 100%;
+    height: 100px;
+    background-color: #f6e1c3;
+    text-align: center;
+}
+
+.card-image {
+    height: 580px;
+    margin: 30px auto;
+    background-color: #f9f5eb;
+    border-radius: 10px;
+    padding: 0px 50px;
+}
+
+.img-header {
+    height: 450px;
+    background-image: url(./img/macarrao.jpg);
+    background-size: cover;
+}
+
+.title-header {
+    margin-left: 20px;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.card{
+    margin: 60px auto;
+    background-color: #f9f5eb;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 15px 12px #dfc3c385;
+
+}
+
+.ingredients{
+
+cursor:url("./img/cursor_ingredientes.png"), auto;
+    
+}
+
+.preparation{
+
+    cursor: url("./img/cursor_preparo.png"), auto;
+}
+
+.instructions{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: url("./img/cursor_intrucoes.png"), auto;
+}
+
+
+.title-list {
+    text-align: center;
+    padding: 10px;
+}
+
+.list{
+    margin-bottom: 30px;
+}
+
+.list li{
+    margin:15px 10px;
+    line-height: 3;
+}
+
+.button-buy{
+font-size: 15px;
+margin-top: 50px;
+padding: 12px;
+border-radius: 20px;
+background-color: #8e0505;
+color: #f8eee2;
+border: none;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+footer{
+    height: 100px;
+    background-color: #f6e1c3;
+}
+
+.text-footer{
+
+    max-width: 500px;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
